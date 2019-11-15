@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import ReactDOM from 'react-dom';
 
-function App() {
   const initialComments = [
     { 
       author:"Shawn Spencer", 
@@ -93,9 +92,10 @@ function App() {
     </div>
   );
   
-  ReactDOM.render(
-    <CommentBox />,
-    document.getElementById('app')
+const App = ()  => {
+  return (
+    <CommentBox/>
   );
 }
+
 export default App;
