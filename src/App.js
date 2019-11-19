@@ -4,12 +4,12 @@ import ReactDOM from 'react-dom';
 
   const initialComments = [
     { 
-      author:"Shawn Spencer", 
-      text:"I've heard it both ways"
+      author:"Kat", 
+      text:"This Snapchat tutorial is great"
     },
     { 
-      author:"Burton Guster", 
-      text:"You hear about Pluto? That's messed up" 
+      author:"Wojo", 
+      text:"Now you understand React development" 
     }
   ];
   
@@ -67,6 +67,7 @@ import ReactDOM from 'react-dom';
           <input type="text" placeholder="Say something..." className="form-control" />
         </div>
         <input type="submit" value="Post" className="btn btn-primary" />
+
       </form>
     );
   };
